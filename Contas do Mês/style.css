@@ -1,0 +1,53 @@
+
+
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Chillax', sans-serif;
+}
+
+body{
+  background-image: url(https://www.tenda.com/blog/wp-content/uploads/2021/09/O-que-sao-despesas-fixas.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+;
+ 
+}
+
+
+/* Centraliza a div que contém o formulário */
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+form{
+  
+  display:flex ;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  background-color: rgba(240, 248, 255, 0.681);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  
+}
+
+#botao{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+pre{
+
+    color: brown;
+}
