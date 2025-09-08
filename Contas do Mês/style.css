@@ -45,9 +45,26 @@ form{
     height: 30px;
     border-radius: 10px;
     border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+#botao:hover{
+    transform: scale(1.1);
+    background: #6b6a6a;
 }
 
 pre{
 
     color: brown;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll; /* melhor para celular */
+    height: 100vh;
+  }
+
+  h1{font-size: 22px;}
 }
